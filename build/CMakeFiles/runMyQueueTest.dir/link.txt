@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/runMyQueueTest.dir/MyQueue_test.cpp.o  -o runMyQueueTest -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

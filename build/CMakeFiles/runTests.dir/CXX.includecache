@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/sqrtImpl.cpp
+math.h
+-
+
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/tests.cpp
+sqrtImpl.cpp
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/sqrtImpl.cpp
+multImpl.cpp
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/multImpl.cpp
+iostream
+-
+gtest/gtest.h
+-
+

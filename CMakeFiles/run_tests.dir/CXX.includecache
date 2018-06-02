@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/tests.cpp
+whattotest.cpp
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/whattotest.cpp
+gtest/gtest.h
+-
+
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/whattotest.cpp
+math.h
+-
+

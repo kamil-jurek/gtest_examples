@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/MyQueue.hpp
+stddef.h
+-
+
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/MyQueue_test.cpp
+MyQueue.hpp
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/MyQueue.hpp
+gtest/gtest.h
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/gtest/gtest.h
+iostream
+-
+

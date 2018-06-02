@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/hello.cpp
+hello.h
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/hello.h
+
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/hello.h
+string
+-
+
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/main.cpp
+hello.h
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/hello.h
+iostream
+-
+

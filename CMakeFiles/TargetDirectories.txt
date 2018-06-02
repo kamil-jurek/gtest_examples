@@ -1,0 +1,4 @@
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/prog.dir
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/run_tests.dir

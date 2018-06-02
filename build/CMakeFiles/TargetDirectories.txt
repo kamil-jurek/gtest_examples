@@ -1,0 +1,4 @@
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/build/CMakeFiles/runMyStringTest.dir
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Lenovo Y580/Desktop/cpp/build/CMakeFiles/runMyQueueTest.dir

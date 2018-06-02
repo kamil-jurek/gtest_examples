@@ -1,0 +1,110 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5799d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5799d.dir/build.make CMakeFiles/cmTC_5799d.dir/build
+make[1]: Entering directory '/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5799d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5799d.dir/CheckSymbolExists.c.o   -c "/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_5799d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5799d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5799d.dir/CheckSymbolExists.c.o  -o cmTC_5799d 
+CMakeFiles/cmTC_5799d.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5799d.dir/build.make:97: recipe for target 'cmTC_5799d' failed
+make[1]: *** [cmTC_5799d] Error 1
+make[1]: Leaving directory '/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5799d/fast' failed
+make: *** [cmTC_5799d/fast] Error 2
+
+File /mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87c6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87c6e.dir/build.make CMakeFiles/cmTC_87c6e.dir/build
+make[1]: Entering directory '/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87c6e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_87c6e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_87c6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87c6e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_87c6e.dir/CheckFunctionExists.c.o  -o cmTC_87c6e -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_87c6e.dir/build.make:97: recipe for target 'cmTC_87c6e' failed
+make[1]: *** [cmTC_87c6e] Error 1
+make[1]: Leaving directory '/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_87c6e/fast' failed
+make: *** [cmTC_87c6e/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91f6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91f6d.dir/build.make CMakeFiles/cmTC_91f6d.dir/build
+make[1]: Entering directory '/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91f6d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_91f6d.dir/CheckSymbolExists.c.o   -c "/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_91f6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91f6d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_91f6d.dir/CheckSymbolExists.c.o  -o cmTC_91f6d 
+CMakeFiles/cmTC_91f6d.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_91f6d.dir/build.make:97: recipe for target 'cmTC_91f6d' failed
+make[1]: *** [cmTC_91f6d] Error 1
+make[1]: Leaving directory '/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_91f6d/fast' failed
+make: *** [cmTC_91f6d/fast] Error 2
+
+File /mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_09a33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_09a33.dir/build.make CMakeFiles/cmTC_09a33.dir/build
+make[1]: Entering directory '/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09a33.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_09a33.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_09a33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09a33.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_09a33.dir/CheckFunctionExists.c.o  -o cmTC_09a33 -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_09a33.dir/build.make:97: recipe for target 'cmTC_09a33' failed
+make[1]: *** [cmTC_09a33] Error 1
+make[1]: Leaving directory '/mnt/c/Users/Lenovo Y580/Desktop/cpp/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_09a33/fast' failed
+make: *** [cmTC_09a33/fast] Error 2
+
+
